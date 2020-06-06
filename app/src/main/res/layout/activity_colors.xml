@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="15dp"
+        android:text="Blue: 파랑 (Palang)"
+        android:gravity="center_vertical"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="#2C5EE3"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="15dp"
+        android:text="Red: 빨강 (Ppalgang)"
+        android:textStyle="bold"
+        android:background="#E74C3C "
+        android:textColor="#fff"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="15dp"
+        android:text="Green: 초록 (Cholog)"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="#28B463"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="15dp"
+        android:text="Pink: 분홍 (Bunhong)"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="#FFC0CB"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="15dp"
+        android:text="Black: 검정 (Geomjeong)"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:background="#000000"
+        android:textSize="24sp" />
+
+
+</LinearLayout>
